@@ -10,7 +10,7 @@ For Example in discord.js
 ```
 const probot = require("probot-tax");
 client.on("message", message => {
-    if(message.content.startWith(prefix + 'tax')) {
+    if(message.content.startsWith(prefix + 'tax')) {
         message.channel.send(probot.taxs(10))
     }
 })
