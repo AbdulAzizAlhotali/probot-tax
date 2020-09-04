@@ -8,7 +8,7 @@ in this package i show you how to create probot tax command
 
 For Example in discord.js
 ```
-const probot = require("probotax");
+const probot = require("probot-tax");
 client.on("message", message => {
     if(message.content.startWith(prefix + 'tax')) {
         message.channel.send(probot.taxs(10))
