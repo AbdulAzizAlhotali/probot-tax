@@ -2,7 +2,7 @@
 in this package i show you how to create probot tax command
 
 # Installation
-`npm i probotax --save`
+`npm i probot-tax --save`
 
 # How To Use
 
